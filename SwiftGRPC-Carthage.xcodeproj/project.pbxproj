@@ -5492,6 +5492,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_2694 /* Build configuration list for PBXNativeTarget "SwiftProtobuf" */;
 			buildPhases = (
+				OBJ_3000 /* ShellScript */,
 				OBJ_2697 /* Sources */,
 				OBJ_2775 /* Frameworks */,
 			);
@@ -5530,6 +5531,103 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		OBJ_3000 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/AnyMessageStorage.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/AnyUnpackError.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/BinaryDecoder.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/BinaryDecodingError.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/BinaryDecodingOptions.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/BinaryDelimited.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/BinaryEncoder.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/BinaryEncodingError.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/BinaryEncodingSizeVisitor.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/BinaryEncodingVisitor.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/CustomJSONCodable.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/Decoder.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/DoubleFormatter.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/Enum.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/ExtensibleMessage.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/ExtensionFieldValueSet.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/ExtensionFields.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/ExtensionMap.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/FieldTag.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/FieldTypes.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/Google_Protobuf_Any+Extensions.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/Google_Protobuf_Any+Registry.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/Google_Protobuf_Duration+Extensions.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/Google_Protobuf_FieldMask+Extensions.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/Google_Protobuf_ListValue+Extensions.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/Google_Protobuf_Struct+Extensions.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/Google_Protobuf_Timestamp+Extensions.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/Google_Protobuf_Value+Extensions.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/Google_Protobuf_Wrappers+Extensions.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/HashVisitor.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/Internal.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/JSONDecoder.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/JSONDecodingError.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/JSONDecodingOptions.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/JSONEncoder.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/JSONEncodingError.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/JSONEncodingOptions.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/JSONEncodingVisitor.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/JSONMapEncodingVisitor.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/JSONScanner.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/MathUtils.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/Message+AnyAdditions.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/Message+BinaryAdditions.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/Message+JSONAdditions.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/Message+JSONArrayAdditions.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/Message+TextFormatAdditions.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/Message.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/MessageExtension.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/NameMap.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/ProtoNameProviding.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/ProtobufAPIVersionCheck.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/ProtobufMap.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/SelectiveVisitor.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/SimpleExtensionMap.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/StringUtils.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/TextFormatDecoder.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/TextFormatDecodingError.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/TextFormatEncoder.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/TextFormatEncodingVisitor.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/TextFormatScanner.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/TimeUtils.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/UnknownStorage.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/Varint.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/Version.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/Visitor.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/WireFormat.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/ZigZag.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/any.pb.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/api.pb.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/duration.pb.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/empty.pb.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/field_mask.pb.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/source_context.pb.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/struct.pb.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/timestamp.pb.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/type.pb.swift",
+				"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160/Sources/SwiftProtobuf/wrappers.pb.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "swift package resolve\nrm -rf \"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160\"\ncp -r `find \"${PROJECT_DIR}/.build/checkouts\" -name \"swift-protobuf.git-*\" | tail -n1` \"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		OBJ_1404 /* Sources */ = {
