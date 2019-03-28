@@ -5625,7 +5625,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "swift package resolve\nrm -rf \"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160\"\ncp -r `find \"${PROJECT_DIR}/.build/checkouts\" -name \"swift-protobuf.git-*\" | tail -n1` \"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160\"\n";
+			shellScript = "swift package resolve\nrm -rf \"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160\"\ncp -r `find \"${PROJECT_DIR}/.build/checkouts\" -name \"swift-protobuf.git-*\" -o -name \"swift-protobuf\" | tail -n1` \"${PROJECT_DIR}/.build/checkouts/swift-protobuf.git-2901371442460970160\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
